@@ -1,0 +1,235 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div#Interface {
+    width: 1300px;
+    background-color: rgb(229, 203, 248);
+    margin: -10px auto 10px auto;
+    box-shadow: 0px 0px 10px rgb(32, 30, 27);
+    padding: 10px;
+}
+
+.main {
+    background: rgb(126, 177, 235);
+    height: 260px;
+    width: 1300px;
+    margin: 0px;
+    border-radius: 25px;
+    font-size: 30PX;
+    position: relative;
+    top: 20px;
+    align: "center";
+    padding: 3px 1px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+nav#menu ul li {
+    /* Exibe o bloco na mesma linha*/
+    display: inline-block;
+    /*padding: controla as margens dentro do objeto na seguinte ordem (cima,direita,baixo e esquerda*/
+    padding 0px;
+    /*margin: controla as margens fora do objeto na seguinte ordem (cima,direita,baixo e esquerda)*/
+    margin: 6px;
+    /*tirar os bullets da UL*/
+    list-style: none;
+    transition: background-color 1s;
+    /*box-shadow: cria sombra no objeto na seguinte ordem (lateral,vertical,espelhamento,cor)*/
+    border-radius: 105px;
+    position: relative;
+    box-shadow: 10px 5px 5px rgb(46, 7, 97);
+    ;
+}
+
+nav#menu img {
+    border-radius: 900px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+nav#menu ul li a {
+    /*text-decoration: none; tira a linha que fica embaixo do item da lista*/
+    text-decoration: none;
+}
+
+
+/*definir o que deverá acontecer com o link quando o usuário passar o mouse. */
+
+nav#menu ul li a:hover {
+    background: rgb(138, 123, 223);
+    display: block;
+    border-radius: 900px;
+}
+
+
+/*Definindo dimensões dos objetos do menu*/
+
+.name {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\1o Semestre\Desenvolvimento para Internet I\Curriculo\img\cor2.png");
+    /* ajuste a largura */
+    width: 900px;
+    /* ajuste a altura */
+    height: 398px;
+    /* alinha a div no centro */
+    margin: "center";
+    /*CONTROLE AQUI A DISTANCIA*/
+    top: -100px;
+    /*border-radius: 5px; deixa a borda arredondada*/
+    border-radius: 25px;
+    margin-left: 210px;
+}
+
+.p1 {
+    text-align: left;
+    float: right;
+    position: relative;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -500px;
+    margin-left: 500px;
+}
+
+.p2 {
+    text-align: left;
+    float: right;
+    position: relative;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -300px;
+    color: rgb(84, 9, 119);
+}
+
+h2 {
+    font-style: oblique;
+}
+
+h3 {
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(44, 7, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+h5 {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: -30px;
+}
+
+hr {
+    margin-right: 5px;
+    border: 10px thick blueviolet;
+}
+
+section#sessao1 {
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: -70px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao1 {
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: -70px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao1 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: -100px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 500px;
+    margin-top: -156px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao3 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 700px;
+    margin-top: -156px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao4 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: 10px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+section#sessao5 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: -70px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+aside#latera {
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(64, 64, 248, 0.5), rgba(158, 158, 175, 0.5))
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+}
+
+footer#rodape p {
+    text-align: center;
+}
